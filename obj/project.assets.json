@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\xampp\\htdocs\\Aulas\\C#\\c_sharp.csproj",
-      "projectName": "c_sharp",
-      "projectPath": "C:\\xampp\\htdocs\\Aulas\\C#\\c_sharp.csproj",
+      "projectUniqueName": "C:\\xampp\\htdocs\\Aulas\\C-Sharp\\C-Sharp.csproj",
+      "projectName": "C-Sharp",
+      "projectPath": "C:\\xampp\\htdocs\\Aulas\\C-Sharp\\C-Sharp.csproj",
       "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
-      "outputPath": "C:\\xampp\\htdocs\\Aulas\\C#\\obj\\",
+      "outputPath": "C:\\xampp\\htdocs\\Aulas\\C-Sharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config"

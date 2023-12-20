@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ePywseyCQb2DttEvRpSjpoKnZ6SUCNTcjR75dLtwjdLSUMh3OBv9VQTG2Y7tpTx+tZx7ZT/kduVJzaD9wj+u6w==",
+  "dgSpecHash": "DhfjpkWhvujgCJka+G9zqmJNst0IJ0o4RCSXFKZ3qlA6VvKaW6kK77DlhnZaQnXDXas/bYYQAuzrBPv5E0juww==",
   "success": true,
-  "projectFilePath": "C:\\xampp\\htdocs\\Aulas\\C#\\c_sharp.csproj",
+  "projectFilePath": "C:\\xampp\\htdocs\\Aulas\\C-Sharp\\C-Sharp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

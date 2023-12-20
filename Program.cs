@@ -1,5 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿//Para encontrar a class em outra pasta/arquivo
+using C_Sharp.Models;
 
-Console.WriteLine("Hello, World!");
+//nome da classe - variavel - classe
 
-Console.WriteLine("Testando rsrs...");
+Pessoa teste = new Pessoa();
