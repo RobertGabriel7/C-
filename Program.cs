@@ -1,9 +1,18 @@
 ﻿//Para encontrar a class em outra pasta/arquivo
 using C_Sharp.Models;
+using Microsoft.VisualBasic;
+
+//>>>>>>>>>>>>>>>>>>>>> VARIAVEIS <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 //nome da classe - variavel - classe
 //Quando declara variavel precisa ser em camelCase. Por exemplo: carroMaisCaroDaLoja = "Ferrari 458"
 //O nome da variavel não pode conter caractere especial em seu nome, apenas underline_ 
+//As variaveis podem ser declaradas somente uma vez por escopo. Não pode declarar mais de uma variavel dentro do mesmo escopo.
+//Quando coloca o tipo da variavel quer dizer que você está declarando ela pela primeira vez. Se não declarar o tipo, quer dizer que você está alterando o valor da varivael que já existe no escopo. 
+
+//Por exemplo:
+// string eitaFi = "Fala meus queridos"
+// eitaFi = "Fala meus amigos"
 
 
 Pessoa testeDeClass = new Pessoa();
@@ -50,7 +59,3 @@ Console.WriteLine("Nome: " + nome);
 Console.WriteLine("É estudante: " + ehEstudante);
 Console.WriteLine("Um único caractere: " + letra);
 Console.WriteLine("Quantos reais: R$" + dinheiro);
-
-
-
-
