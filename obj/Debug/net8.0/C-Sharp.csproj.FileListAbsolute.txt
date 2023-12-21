@@ -1,0 +1,15 @@
+C:\xampp\htdocs\Aulas\C-Sharp\bin\Debug\net8.0\C-Sharp.exe
+C:\xampp\htdocs\Aulas\C-Sharp\bin\Debug\net8.0\C-Sharp.deps.json
+C:\xampp\htdocs\Aulas\C-Sharp\bin\Debug\net8.0\C-Sharp.runtimeconfig.json
+C:\xampp\htdocs\Aulas\C-Sharp\bin\Debug\net8.0\C-Sharp.dll
+C:\xampp\htdocs\Aulas\C-Sharp\bin\Debug\net8.0\C-Sharp.pdb
+C:\xampp\htdocs\Aulas\C-Sharp\obj\Debug\net8.0\C-Sharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\Aulas\C-Sharp\obj\Debug\net8.0\C-Sharp.AssemblyInfoInputs.cache
+C:\xampp\htdocs\Aulas\C-Sharp\obj\Debug\net8.0\C-Sharp.AssemblyInfo.cs
+C:\xampp\htdocs\Aulas\C-Sharp\obj\Debug\net8.0\C-Sharp.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\Aulas\C-Sharp\obj\Debug\net8.0\C-Sharp.sourcelink.json
+C:\xampp\htdocs\Aulas\C-Sharp\obj\Debug\net8.0\C-Sharp.dll
+C:\xampp\htdocs\Aulas\C-Sharp\obj\Debug\net8.0\refint\C-Sharp.dll
+C:\xampp\htdocs\Aulas\C-Sharp\obj\Debug\net8.0\C-Sharp.pdb
+C:\xampp\htdocs\Aulas\C-Sharp\obj\Debug\net8.0\C-Sharp.genruntimeconfig.cache
+C:\xampp\htdocs\Aulas\C-Sharp\obj\Debug\net8.0\ref\C-Sharp.dll
