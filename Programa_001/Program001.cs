@@ -55,6 +55,7 @@ decimal dinheiro = 10.50M;  // Para Dinheiro
 
 
 
+
 Console.WriteLine("Idade: " + idade );
 
 //ToString("0.00") vai representa um numero inteiro e dois decimais
