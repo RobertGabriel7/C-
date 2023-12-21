@@ -64,7 +64,10 @@ Console.WriteLine("É estudante: " + ehEstudante);
 Console.WriteLine("Um único caractere: " + letra);
 Console.WriteLine("Quantos reais: R$" + dinheiro);
 
-//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>> DateTime <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+//DateTime não é uma class, mas um tipo "struct"
+//"A ideia do Struct é de armazenar os dados em uma mesma entidade, em apenas uma única variável. Se quisermos guardar o nome, telefone e o e-mail de uma pessoa, podemos criar uma Struct chamada Pessoa, por exemplo, e agrupar essas informações em um único tipo de dado." 
 
 //Mostra o dia, mês, ano e hora, minutos e segundos. 20/12/2023 23:13:45
 DateTime dataAtual = DateTime.Now;
