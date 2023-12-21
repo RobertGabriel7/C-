@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\xampp\\htdocs\\Aulas\\C-Sharp\\Atividades\\Atividades.csproj": {}
+    "C:\\xampp\\htdocs\\Aulas\\C-Sharp\\Programa_002\\Programa_002.csproj": {}
   },
   "projects": {
-    "C:\\xampp\\htdocs\\Aulas\\C-Sharp\\Atividades\\Atividades.csproj": {
+    "C:\\xampp\\htdocs\\Aulas\\C-Sharp\\Programa_002\\Programa_002.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\xampp\\htdocs\\Aulas\\C-Sharp\\Atividades\\Atividades.csproj",
-        "projectName": "Atividades",
-        "projectPath": "C:\\xampp\\htdocs\\Aulas\\C-Sharp\\Atividades\\Atividades.csproj",
+        "projectUniqueName": "C:\\xampp\\htdocs\\Aulas\\C-Sharp\\Programa_002\\Programa_002.csproj",
+        "projectName": "Programa_002",
+        "projectPath": "C:\\xampp\\htdocs\\Aulas\\C-Sharp\\Programa_002\\Programa_002.csproj",
         "packagesPath": "C:\\Users\\rober\\.nuget\\packages\\",
-        "outputPath": "C:\\xampp\\htdocs\\Aulas\\C-Sharp\\Atividades\\obj\\",
+        "outputPath": "C:\\xampp\\htdocs\\Aulas\\C-Sharp\\Programa_002\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rober\\AppData\\Roaming\\NuGet\\NuGet.Config"
