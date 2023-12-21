@@ -34,7 +34,7 @@ testeDeClass.Apresentar();
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 // Exemplo de declaração de variáveis
 int idade = 25;           // Variável do tipo int para números inteiros
-double altura = 1.75;     // Variável do tipo double para números decimais
+double altura = 1.80;     // Variável do tipo double para números decimais
 string nome = "João";     // Variável do tipo string para texto
 bool ehEstudante = true;  // Variável do tipo bool para valores booleanos (verdadeiro ou falso)
 char letra = 'a';         // Representa um único caractere
@@ -43,8 +43,14 @@ decimal dinheiro = 10.50M;  // Para Dinheiro
 
 
 Console.WriteLine("Idade: " + idade );
-Console.WriteLine("Altura: " + altura );
+
+//ToString("0.00") vai representa um numero inteiro e dois decimais
+Console.WriteLine("Altura: " + altura.ToString("0.00"));
 Console.WriteLine("Nome: " + nome);
 Console.WriteLine("É estudante: " + ehEstudante);
 Console.WriteLine("Um único caractere: " + letra);
 Console.WriteLine("Quantos reais: R$" + dinheiro);
+
+
+
+
