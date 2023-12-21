@@ -27,6 +27,11 @@ testeDeClass.Idade = 21;
 testeDeClass.Apresentar();
 
 
+//************************************* UTILIDADE **********************************************
+
+//Ctrl k c - faz comentarios
+
+
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 //Sintaxe é a regra estabelicida pela linguagem. Então cada linguagem tem a sua Sintaxe.
@@ -38,9 +43,8 @@ testeDeClass.Apresentar();
 //char representa um único caractere
 
 
-
-
 //>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
 // Exemplo de declaração de variáveis
 int idade = 25;           // Variável do tipo int para números inteiros
 double altura = 1.80;     // Variável do tipo double para números decimais
@@ -59,3 +63,22 @@ Console.WriteLine("Nome: " + nome);
 Console.WriteLine("É estudante: " + ehEstudante);
 Console.WriteLine("Um único caractere: " + letra);
 Console.WriteLine("Quantos reais: R$" + dinheiro);
+
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+//Mostra o dia, mês, ano e hora, minutos e segundos. 20/12/2023 23:13:45
+DateTime dataAtual = DateTime.Now;
+
+//Nesse caso, vai Adcionar um ano a mais na data atual
+DateTime ano = DateTime.Now.AddYears(1);
+
+
+Console.WriteLine(dataAtual);
+
+//Imprime somente a data: dia, mes e ano.
+Console.WriteLine(dataAtual.ToString("dd/mm/yyyy"));
+
+//Imprime a data e o horario: dia, mes e ano e hora e minutos.
+Console.WriteLine(dataAtual.ToString("dd/mm/yyy  hh:mm"));
+
+Console.WriteLine(ano);
