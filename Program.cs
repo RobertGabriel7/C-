@@ -38,4 +38,13 @@ double altura = 1.75;     // Variável do tipo double para números decimais
 string nome = "João";     // Variável do tipo string para texto
 bool ehEstudante = true;  // Variável do tipo bool para valores booleanos (verdadeiro ou falso)
 char letra = 'a';         // Representa um único caractere
-decimal Dinheiro = 10;  // Para Dinheiro
+decimal dinheiro = 10.50M;  // Para Dinheiro
+
+
+
+Console.WriteLine("Idade: " + idade );
+Console.WriteLine("Altura: " + altura );
+Console.WriteLine("Nome: " + nome);
+Console.WriteLine("É estudante: " + ehEstudante);
+Console.WriteLine("Um único caractere: " + letra);
+Console.WriteLine("Quantos reais: R$" + dinheiro);
