@@ -1,4 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.Collections;
+using System.Diagnostics;
+
 Console.WriteLine("Hello, World!");
 
 //Cast - Casting - Processo de converte
@@ -153,18 +156,41 @@ Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
 
 //string letra =  Console.ReadLine(); 
 
-string letra = Console.ReadLine();
+//string letra = Console.ReadLine();
 
-if(
-letra  == "a" || 
-letra  == "e" ||
-letra  == "i"  ||
-letra  == "o" ||
-letra  == "u" ){
+//if(
+//letra  == "a" || 
+//letra  == "e" ||
+//letra  == "i"  ||
+//letra  == "o" ||
+//letra  == "u" ){
 
-Console.WriteLine($"A letra digitada foi '{letra}' e é uma vogal.");
+//Console.WriteLine($"A letra digitada foi '{letra}' e é uma vogal.");
 
-}else{
+//}else{
+//    Console.WriteLine($"A letra digitada foi '{letra}' e não é uma vogal, mas sim, uma consoante .");
+//}
+
+Console.WriteLine("Digite uma letra: ");
+string letra =  Console.ReadLine(); 
+switch (letra){
+
+case "a":
+case "e":
+case "i":
+case "o":
+case "u":
+    
+    Console.WriteLine($"A letra digitada foi '{letra}' e é uma vogal.");
+    break;
+
+default:
+    
     Console.WriteLine($"A letra digitada foi '{letra}' e não é uma vogal, mas sim, uma consoante .");
+    break;
+
 }
+
+
+
 
