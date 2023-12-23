@@ -104,3 +104,42 @@ int.TryParse(aaa, out int b);
 //Precisa mostrar a variavel 'b' porque independente do resultado, saida vai ser a variavel 'b'.
 Console.WriteLine(b);
 Console.WriteLine("Converção com sucesso");
+
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//OPERADORES CONDFICIONAIS - possibilidade de de mudar o fluxo de execução de seu código, indicando um caminha que ele deve percorrer.
+
+
+//OPERADORES: IF 
+
+Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+
+
+
+int quantidade = 100;
+
+Console.WriteLine("Digite a quantidade solicitada: ");
+
+int solici =  Convert.ToInt32(Console.ReadLine());
+
+if (solici == 0 ){
+
+Console.WriteLine("Compra invalida.");
+
+}
+
+//Se não se 
+else if (solici <= quantidade)
+{
+    //Vai mostrar a variavel dentro da string ($"Texto qualquer {variavel} texto qualquer")
+    Console.WriteLine($"A quantidade solicitada foi de {solici}, tem para comprar e restou {quantidade - solici} no estoque.");
+    
+}else
+{
+    Console.WriteLine($"A quantidade solicitada foi de {solici} e excedeu o limite do estoque que é {quantidade}.");
+    
+}   
+//Aqui tem o pulo do gato, vai verificar se a solicitação de compra é maior que 0
+ Console.WriteLine(value: $"A compra foi realizada: {solici > 0 && solici <= quantidade}");
+
+
+
