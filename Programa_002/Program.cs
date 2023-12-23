@@ -141,5 +141,30 @@ else if (solici <= quantidade)
 //Aqui tem o pulo do gato, vai verificar se a solicitação de compra é maior que 0
  Console.WriteLine(value: $"A compra foi realizada: {solici > 0 && solici <= quantidade}");
 
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
 
+//SWITCH
+
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+//É possivel fazer dessa maneira, mas não tao boa asssim
+
+//Console.WriteLine("Digite uma letra: ");
+
+//string letra =  Console.ReadLine(); 
+
+string letra = Console.ReadLine();
+
+if(
+letra  == "a" || 
+letra  == "e" ||
+letra  == "i"  ||
+letra  == "o" ||
+letra  == "u" ){
+
+Console.WriteLine($"A letra digitada foi '{letra}' e é uma vogal.");
+
+}else{
+    Console.WriteLine($"A letra digitada foi '{letra}' e não é uma vogal, mas sim, uma consoante .");
+}
 
