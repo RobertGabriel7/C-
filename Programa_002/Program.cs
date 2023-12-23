@@ -175,15 +175,17 @@ Console.WriteLine("Digite uma letra: ");
 string letra =  Console.ReadLine(); 
 switch (letra){
 
+//Precisa colocar dois pontos
 case "a":
 case "e":
 case "i":
 case "o":
 case "u":
-    
+    //Se algum case foi verdadeiro vai executar o que tiver depois dos dois pontos e break(vai parar a execução do Switch)    
     Console.WriteLine($"A letra digitada foi '{letra}' e é uma vogal.");
     break;
 
+//Default é caso os cases não forem verdadeiro, a saida vai ser default(padrão)
 default:
     
     Console.WriteLine($"A letra digitada foi '{letra}' e não é uma vogal, mas sim, uma consoante .");
