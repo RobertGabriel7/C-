@@ -238,3 +238,27 @@ Console.WriteLine("Por ser de menor e não ter autorização, a entrada não é 
  
  
  //Operador AND só retorna verdadeiro se todos forem verdadeiros;
+
+
+Console.WriteLine("Qual foi a nota do aluno? ");
+
+double nota = Convert.ToDouble(Console.ReadLine());
+
+Console.WriteLine("Possui presença minima: true or false ? ");
+
+bool possuiPreMininina = Convert.ToBoolean(Console.ReadLine());
+
+if (possuiPreMininina && nota >= 5 ){
+
+Console.WriteLine($"Parabens, o aluno ficou com a nota {nota} e foi aprovado.");
+
+}else if (){
+    
+}else{
+    Console.WriteLine($"Infelizmente o aluno ficou a nota {nota} e não foi aprovado.");
+}
+
+
+
+
+
