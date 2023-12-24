@@ -193,6 +193,48 @@ default:
 
 }
 
+//>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+//OPERADOR OR (Piper, || )
+
+//Só é False quando todos forem False
+Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+
+Console.WriteLine("É maior de idade, True or Flase? ");
+bool deMaior = Convert.ToBoolean(Console.ReadLine());
 
 
+ 
+if( deMaior == true){
 
+    Console.WriteLine("Entrada permitida.");
+//Se for verdadeiro, o codigo termina aqui, se nao
+}
+
+ else  {
+//Aqui vai perguntar e agregar o valor boolean para a variavel auto
+Console.WriteLine("Tem autorização, True or Flase?  ");
+bool auto = Convert.ToBoolean( Console.ReadLine());
+
+//Aqui vai verificar se deMaior ou auto são verdadeiro
+if(deMaior || auto){
+
+//Se deMaior for false e auto for verdadeiro, vaii imiprimir esse resultado
+
+Console.WriteLine("Mesmo sendo de menor, a entrada é permitida por causa da autorização dos seus pais.");
+
+//Se deMaior e auto for false, vai imiprimir esse resultado.
+
+}else {
+
+Console.WriteLine("Por ser de menor e não ter autorização, a entrada não é permitida.");
+
+}
+ }
+
+ /* Para Criar comentarios no codigo selecionado: shift alt a  */
+
+
+ Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+ 
+ 
+ //Operador AND só retorna verdadeiro se todos forem verdadeiros;
