@@ -1,4 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿/// See https://aka.ms/new-console-template for more information
 using System.Collections;
 using System.Diagnostics;
 
@@ -235,8 +235,8 @@ Console.WriteLine("Por ser de menor e não ter autorização, a entrada não é 
 
 
  Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
- 
- 
+  
+  
  //Operador AND só retorna verdadeiro se todos forem verdadeiros;
 
 
@@ -248,15 +248,30 @@ Console.WriteLine("Possui presença minima: true or false ? ");
 
 bool possuiPreMininina = Convert.ToBoolean(Console.ReadLine());
 
-if (possuiPreMininina && nota >= 5 ){
+if (nota >= 5 && possuiPreMininina ){
+
 
 Console.WriteLine($"Parabens, o aluno ficou com a nota {nota} e foi aprovado.");
 
-}else if (){
-    
+}else {
+
+if (nota >= 5 && possuiPreMininina == false) {
+
+Console.WriteLine($"A sua nota foi {nota}, cima de 5, porem foi reprovado por não ter presença minina. ");
+
 }else{
-    Console.WriteLine($"Infelizmente o aluno ficou a nota {nota} e não foi aprovado.");
+
+Console.WriteLine($"A sua nota foi {nota} e por isso você não foi aprovado. ");
+
 }
+
+}
+
+
+
+
+
+
 
 
 
