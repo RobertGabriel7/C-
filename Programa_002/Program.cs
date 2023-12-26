@@ -386,14 +386,42 @@ int numeroDaTabua = Convert.ToInt32(Console.ReadLine());
 int cont = 0;
 
 //Enquanto cont for menor ou igual a 10, vai executar o código
+//Verifica primeiro se o cont é verdadeiro para prosseguir a execução do código
 while (cont <= 10){
 
 Console.WriteLine($"{numeroDaTabua} x {cont} é: {numeroDaTabua * cont}");
 
 cont++;
 
+//Para fazer uma interrupição na execução do código
+//Vai parar na Tabuada do 7 porque começa do 0.
+if(cont >= 8){
+    break;
 }
+
+}
+
+
 
 //REPETIÇÃO DO WHILE
 //do-while: Semelhante ao while, mas garante que o bloco de código seja executado pelo menos uma vez, mesmo se a condição for falsa desde o início.
+//Vai executar o código independente da condição 
 
+int numero44 = 0;
+
+do{
+    Console.WriteLine("Digite um numero (o numero 0 para a execução do programa)");
+    int numeroDigitado = Convert.ToInt32(Console.ReadLine());
+    numero44 = numeroDigitado;
+
+//Enquanto o numero foi diferente de 0, o programa vai continuar. Se não for diferente de 0, vai voltar para o Do
+}while(numero44 != 0);
+
+Console.WriteLine("Fim da execução do programa.");
+
+
+
+//Sinal de diferente !=
+
+//Vai pegar o valor da variavel numero e ADICIONAR na variavel soma.
+// soma += numero
