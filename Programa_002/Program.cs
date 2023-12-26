@@ -506,5 +506,12 @@ Array.Copy(array, arrayNovo, array.Length);
 foreach(int valor11 in arrayNovo){
 
 Console.WriteLine(valor11);
+} 
 Console.WriteLine(arrayNovo.Length);
-}
+
+Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+Console.WriteLine("Trabalhando com Listas");
+
+//Uma Lista é um array melhorado
+//Não precisa declarar a capacidade maxima 
+
