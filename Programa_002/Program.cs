@@ -425,3 +425,12 @@ Console.WriteLine("Fim da execução do programa.");
 
 //Vai pegar o valor da variavel numero e ADICIONAR na variavel soma.
 // soma += numero
+
+//Environment.Exit(0); para encerrar totalmente o programa. E não vai executar o código abaixo.
+
+//Para encerrar o programa de outra maneira: 
+//exibirMenu = false: 
+//Break:
+//O código abaixo vai ser executado
+
+//Console.Clear(); para limpar o programa
