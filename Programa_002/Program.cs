@@ -493,4 +493,18 @@ Console.WriteLine("Para mudar o tamanho do Array");
 //Um Array nasce e morre com a sua capacidade
 //O que o Array.Resize faz é criar um array novo  com o valor de indices solicitado e copiar os elementos do array antigo 
 
-Array.Resize(ref array, array.Length * 2);
+//Array.Resize(ref array, array.Length * 2);
+
+Console.WriteLine("O que o Array.Resize faz: ");
+
+int[] arrayNovo = new int[array.Length * 2];
+
+//Origem array, destino arrayNovo, a quantidade de elementos que vai ser copiado (tudo ou 2 elementos)
+Array.Copy(array, arrayNovo, array.Length);
+
+
+foreach(int valor11 in arrayNovo){
+
+Console.WriteLine(valor11);
+Console.WriteLine(arrayNovo.Length);
+}
