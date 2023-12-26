@@ -515,3 +515,45 @@ Console.WriteLine("Trabalhando com Listas");
 //Uma Lista é um array melhorado
 //Não precisa declarar a capacidade maxima 
 
+// Lista<tipo da lista> nome da lista = nova lista <tipo string> (capacidade da Lista, não é obrigatório passar a capacidade da lista)
+
+List<string>  ListaDeString = new List<string>();
+
+//Para adicionar elementos na lista
+ListaDeString.Add("São Paulo");
+ListaDeString.Add("Minas Gerais");
+ListaDeString.Add("Ceara");
+
+Console.WriteLine(">>>>>>>>>>>> List with FOREACH >>>>>>>>>>>>>>");
+
+foreach(string cont11 in ListaDeString){
+
+Console.WriteLine(cont11);
+
+}
+
+Console.WriteLine(">>>>>>>>>>>> List with FOR >>>>>>>>>>>>>>");
+
+//Count é a mesma coisa que o Length, ele conta a quantidade de elementos do array
+for (int conta1 = 0; conta1 < ListaDeString.Count; conta1++ ){
+
+Console.WriteLine(ListaDeString[conta1]);
+
+}
+
+//Uma Lista trabalha internamente com um array, mas nao precisamos se preocupar com o array
+
+//No array, é preciso se preocupar com a sua capacidade para não quebrar, ja na lista, ela faz isso automaticamente. Então se faltar capacidade em uma lista, ela vai adicionar automaticamente, diferente do array que precisa adcionar manualmente
+
+//Capacidade do array que esta internamente na lista
+Console.WriteLine(ListaDeString.Capacity);
+
+//O Length, obtem o comprimento do Array
+
+//quantidade de elementos que tem na lista
+Console.WriteLine(ListaDeString.Count);
+
+//Remove o elemento selecionado e reordena os elementos que ficaram na Lista 
+Console.WriteLine(ListaDeString.Remove("Ceara"));
+
+//Prefirir lista do que array
