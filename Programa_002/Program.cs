@@ -350,7 +350,7 @@ numero55++;
 //o valor vai ser 9
 int numer = 10;
 numer--;
-*/
+
 
 //ESTRUTURA DE REPETIÇÃO
 //FOR, WHILE e DO WHILE
@@ -367,6 +367,7 @@ int numeroDaTabuada = Convert.ToInt32(Console.ReadLine());
 //for (a declaração da variavel, condição da variavel e Incrementando )
 //A variavel contador vai começar do 0 e vai até 10, e é acrescentado mais 1 na variavel contador (para chegar até 10)
 //Verifica o contador, se for menor 10 o código vai rodar, vai voltar e acrescentar mais um no contador se não passar do valor 10 
+
 for (int contador = 0; contador <= 10; contador++)
 {
     Console.WriteLine($"{numeroDaTabuada} x {contador} é: {numeroDaTabuada * contador}");
@@ -434,3 +435,62 @@ Console.WriteLine("Fim da execução do programa.");
 //O código abaixo vai ser executado
 
 //Console.Clear(); para limpar o programa
+*/
+
+//ARRAY (matriz, ou vetor) e LISTAS
+
+//Array é uma estrutura de dados que armazenam elementos do mesmo tipo 
+//Semelhante a uma varivael, o array armazena variaveis dentro dele e elas podem ser acessadas pelo o seu inidice.
+
+//Uma variavel com diversos valores
+
+//Aqui vai passat o tamanho do array (5 indices)
+int[] array = new int[4];
+
+array[0] = 10;
+array[1] = 20;
+array[2] = 30;
+array[3] = 40;
+
+Console.WriteLine("FOR");
+
+//.Length vai mostrar o ultimo indice do array
+
+for (int indice = 0; indice < array.Length; indice++ ){
+
+Console.WriteLine($"Indice do array {indice}° - {array[indice]}");
+
+}
+
+
+//Inves da falar o tamanho, pode colocar os dados e o programa vai saber que é um array com 5 indices porque foram colocados 5 dados 
+
+//int[] array2 = new int{42,77,35,26, 78};
+
+//Ctrl : faz comentarios
+
+string[] nomes = {"Jan","Fev "};
+
+Console.WriteLine(nomes[0]);
+Console.WriteLine(nomes[1]);
+
+//FOREACH
+Console.WriteLine("FOREACH");
+//Semelhante a esse código: for (int indice = 0; indice < array.Length; indice++ , mas resumido...
+
+//Compilado é quando o código já esta rodando e não pode mexer 
+//Para cada elemento do array, joga o valor para a variavel valor 
+
+foreach (int valor22 in array)
+{
+    Console.WriteLine(valor22);
+}
+
+Console.WriteLine("Para mudar o tamanho do Array");
+
+
+//ref é o endereço da memoeria do array, novo tamanho do array
+//Um Array nasce e morre com a sua capacidade
+//O que o Array.Resize faz é criar um array novo  com o valor de indices solicitado e copiar os elementos do array antigo 
+
+Array.Resize(ref array, array.Length * 2);
