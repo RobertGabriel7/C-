@@ -1,4 +1,5 @@
-﻿/// See https://aka.ms/new-console-template for more information
+﻿/*
+/// See https://aka.ms/new-console-template for more information
 using System.Collections;
 using System.Diagnostics;
 using Programa_002.Models;
@@ -234,7 +235,7 @@ Console.WriteLine("Por ser de menor e não ter autorização, a entrada não é 
 }
  }
 
- /* Para Criar comentarios no codigo selecionado: shift alt a  */
+ // Para Criar comentarios no codigo selecionado: shift alt a  
 
 
  Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
@@ -292,7 +293,7 @@ Console.WriteLine("Não vou pedalar hoje.");
 }
 
 
-/* 
+
   int soma = 5 + 3;
         Console.WriteLine("Soma: " + soma);  // resultado será 8
 
@@ -322,7 +323,7 @@ Console.WriteLine("Não vou pedalar hoje.");
         
         Console.WriteLine("Decremento: " + b);  // b agora é 7
 
- */
+ 
 
 Teste calc = new Teste();
 
@@ -336,16 +337,63 @@ calc.RaizQuadrada(50);
 
 Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
 
-/* F12 para mais informações */
+//F12 para mais informações 
 
 
-int nume = 10;
+int numero55 = 10;
 
 //Incrementando o numero 10
 //o valor vai ser 11
-nume++;
+numero55++;
 
 //Decrementando o nuemro 10;
 //o valor vai ser 9
 int numer = 10;
 numer--;
+*/
+
+//ESTRUTURA DE REPETIÇÃO
+//FOR, WHILE e DO WHILE
+
+
+
+//REPETIÇÃO FOR.
+
+//for: Use quando souber antecipadamente quantas iterações precisa. É eficiente para percorrer sequências com um índice ou contador.
+
+Console.WriteLine("Tabuada de qual número:  ");
+int numeroDaTabuada = Convert.ToInt32(Console.ReadLine());
+
+//for (a declaração da variavel, condição da variavel e Incrementando )
+//A variavel contador vai começar do 0 e vai até 10, e é acrescentado mais 1 na variavel contador (para chegar até 10)
+//Verifica o contador, se for menor 10 o código vai rodar, vai voltar e acrescentar mais um no contador se não passar do valor 10 
+for (int contador = 0; contador <= 10; contador++)
+{
+    Console.WriteLine($"{numeroDaTabuada} x {contador} é: {numeroDaTabuada * contador}");
+}
+
+
+//REPETIÇÃO WHILE (Enquanto...)
+
+//while: Use quando a condição de término ou continuação não puder ser determinada antecipadamente. É útil quando a lógica de controle é simples.
+
+//Ctrl C para interroper o terminal quando estiver em execução
+
+
+Console.WriteLine("Tabuada de qual número:  ");
+int numeroDaTabua = Convert.ToInt32(Console.ReadLine());
+
+int cont = 0;
+
+//Enquanto cont for menor ou igual a 10, vai executar o código
+while (cont <= 10){
+
+Console.WriteLine($"{numeroDaTabua} x {cont} é: {numeroDaTabua * cont}");
+
+cont++;
+
+}
+
+//REPETIÇÃO DO WHILE
+//do-while: Semelhante ao while, mas garante que o bloco de código seja executado pelo menos uma vez, mesmo se a condição for falsa desde o início.
+
