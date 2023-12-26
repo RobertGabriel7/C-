@@ -1,6 +1,9 @@
 ﻿/// See https://aka.ms/new-console-template for more information
 using System.Collections;
 using System.Diagnostics;
+using Programa_002.Models;
+
+
 
 Console.WriteLine("Hello, World!");
 
@@ -267,13 +270,82 @@ Console.WriteLine($"A sua nota foi {nota} e por isso você não foi aprovado. ")
 
 }
 
+Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
 
 
+//OPERADOR NOT, inverte os valores.
+
+//Por exemplo: se for true, vira false 
+//se for false, vira true
 
 
+bool choveu = false;
+bool estaTarde = false;
+
+// o ponto de exclamação ! é um sinal de negação, sinal de NOT.
+if(!choveu && !estaTarde){
+
+Console.WriteLine("Vou pedalar");
+
+}else{
+Console.WriteLine("Não vou pedalar hoje.");
+}
 
 
+/* 
+  int soma = 5 + 3;
+        Console.WriteLine("Soma: " + soma);  // resultado será 8
+
+        // Operador de Subtração
+        int subtracao = 5 - 3;
+        Console.WriteLine("Subtração: " + subtracao);  // resultado será 2
+
+        // Operador de Multiplicação
+        int multiplicacao = 5 * 3;
+        Console.WriteLine("Multiplicação: " + multiplicacao);  // resultado será 15
+
+        // Operador de Divisão
+        int divisao = 6 / 3;
+        Console.WriteLine("Divisão: " + divisao);  // resultado será 2
+
+        // Operador de Módulo
+        int modulo = 7 % 3;
+        Console.WriteLine("Módulo: " + modulo);  // resultado será 1
+
+        // Operador de Incremento
+        int a = 5;
+        
+        Console.WriteLine("Incremento: ",  a);  // a agora é 6
+
+        // Operador de Decremento
+        int b = 8;
+        
+        Console.WriteLine("Decremento: " + b);  // b agora é 7
+
+ */
+
+Teste calc = new Teste();
+
+Console.WriteLine(calc.Somar(125, 15));
+
+//Potencia
+calc.Potencia(10.12, 52.12);
+
+//Raiz Quadrada
+calc.RaizQuadrada(50);
+
+Console.WriteLine(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+
+/* F12 para mais informações */
 
 
+int nume = 10;
 
+//Incrementando o numero 10
+//o valor vai ser 11
+nume++;
 
+//Decrementando o nuemro 10;
+//o valor vai ser 9
+int numer = 10;
+numer--;
