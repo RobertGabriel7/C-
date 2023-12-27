@@ -1,5 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System.Dynamic;
+using Programa_003.Models;
 
+//Fazendo uma copia da class padrão
+Pessoa Pessoa1 = new Pessoa();
 
-/* Proprieda é um membro oferece mecanisco flexivel para ler, gravar ou calcular o valor de um campo particular */
+Pessoa1.Nome = "Robert";
+Pessoa1.Idade = -1;
+Pessoa1.Apresentar();
+
+/* Quando aparece uma caixa na sugestão é um metodo, se for uma chave inglesas é uma propriedade */
