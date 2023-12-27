@@ -5,25 +5,11 @@ using System.Threading.Tasks;
 
 namespace Programa_003.Models
 {
+
+    /* Aqui é Get */
     public class Pessoa
     {
         /* Campo no C# */
-
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   
         /* So pode acessar o private dentro da class pessoa, não é acessisivel externamente  */
         /* Isso se chama encapsulamento */
@@ -51,19 +37,7 @@ namespace Programa_003.Models
             } 
         }
 
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
+     
    
         private int _idade;
    
@@ -92,29 +66,23 @@ namespace Programa_003.Models
                                     }
                                     
                                 
-
                                 
                                 }
+        /* Propridade */
+        public string SobreNome {get; set;
+        
+        
+        
+        }
+
+        public string NomeCompleto => $"{Nome} {SobreNome}".ToUpper();
 
         public void Apresentar(){
-            Console.WriteLine($"Nome: {Nome}, Idade: {Idade} anos.");
+            Console.WriteLine($"Nome: {NomeCompleto}, Idade: {Idade} anos.");
         }
    
-   
-   
-   
-   
-   
-   
-
-
-
-   
-   
-   
-   
-   
-   
+          
+     
     }
         
 }
